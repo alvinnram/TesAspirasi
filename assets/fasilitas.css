@@ -1,0 +1,226 @@
+/* CSS untuk SECRET ZOO */
+
+/* Import font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Quicksand:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+/* Setel box-sizing ke border-box secara global */
+* {
+    box-sizing: border-box;
+}
+
+/* Setel font-family dan background body */
+body {
+    font-family: Quicksand, sans-serif;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 50px;
+    text-align: center;
+    background: #662366;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 0 rgba(216, 132, 132, 0.2);
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+h2 {
+text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #AB68AF;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #f2f2f2;
+    color: #662366;
+}
+
+/* Styling untuk kolom kiri */
+.leftcolumn {
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+}
+
+/* Styling untuk kolom tengah */
+.middlecolumn {
+    float: left;
+    width: 50%;
+}
+
+/* Styling untuk kolom kanan */
+.rightcolumn {
+    float: right;
+    width: 25%;
+    padding-left: 10px;
+}
+
+/* Styling untuk kotak konten */
+.card {
+    background-color: white;
+    padding: 2px;
+    margin-top: 23px;
+    border-radius: 8px;
+    box-shadow: 0 4px 25px 0 rgba(216, 132, 132, 0.2);
+    width: 150%;
+}
+.card1 {
+    background-color: white;
+    padding: 29px;
+    margin-top: 23px;
+    border-radius: 8px;
+    box-shadow: 0 4px 25px 0 rgba(216, 132, 132, 0.2);
+    width: 100%;
+}
+
+#tanggal {
+    color: red;
+    font-weight: bolder;
+}
+
+.card1 p {
+    text-align: center;
+}
+
+.vote-button {
+    text-align: center;
+}
+
+/* Clear floats setelah kolom-kolom */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style Form Input */
+input[type=text], 
+input[type=number], 
+input[type=email], 
+input[type=date], 
+input[type=file], 
+textarea, 
+select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+
+/* Hover effect pada tombol submit dan reset */
+input[type=submit]:hover, 
+input[type=reset]:hover {
+    background-color: #662366;
+}
+
+/* Styling untuk form reservasi tiket */
+form {
+    border-radius: 8px;
+    background-color: #AB68AF;
+    padding: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #662366;
+    margin-top: 20px;
+    font-size: 12px;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Styling untuk profile pada navbar */
+.profile img {
+    width: 50px;
+    height: 50px;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+
+.profile span {
+    vertical-align: middle;
+}
+
+/* Styling untuk kotak chat */
+.chat {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.message .name {
+    font-weight: bold;
+}
+
+/* Styling untuk tombol vote dan cek kalender */
+.vote-button, 
+.calendar-button {
+    background-color: #662366;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.chat-box {
+    width: 580px;
+    height: 90px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 15px;
+  }
+button {
+    background-color: #662366;
+    color: white;
+    padding: 10px;
+}

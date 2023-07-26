@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400&family=Quicksand:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+* 
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: quicksand;
+    padding: 10px;
+    background: #f1f1f1;
+    background-color: rgb(223, 223, 223);
+}
+.header
+{
+    padding: 50px ;
+    text-align: center;
+    background: #662366;
+    color: white;
+    border-radius: 8px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.header h1
+{
+    font-size: 30px;
+}
+.topnav
+{
+    overflow: hidden;
+    background-color: #AB68AF;
+    border-radius: 8x;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    font-weight: bold;
+    color: white;
+    position: sticky;
+}
+.topnav a
+{
+    float: left;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover 
+{
+    background-color: #662366;
+    color: #ffffff;
+    font-weight: 600;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+li a
+{
+    display: block;
+    color: #000;
+    padding: 15px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+li a:hover
+{
+    background-color: #662366;
+    color: white;
+}
+.leftcolumn
+{
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+    
+}
+.middlecolumn 
+{
+    float: left;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.rightcolumn
+{
+    float: right;
+    width: 25%;
+    padding-left: 10px;
+    padding-right: 0.5px;
+}
+.card
+{
+    background-color: white;
+    padding: 29px;
+    margin-top: 23px;
+    border-radius: 8px;
+}
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer
+{
+    padding: 10px;
+    text-align: center;
+    background: #662366;
+    margin-top: 20px;
+    font-size: 12px;
+    color: white;
+    border-radius: 8px;
+}
+
+  
+  .carousel-container {
+    width: 1383px; /* Sesuaikan ukuran carousel di sini */
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  
+  button {
+    color: white;
+    background-color: #662366;
+    width: 120px;
+    height: 60px;
+    font-size: larger;
+    border-radius: 10px;
+    text-align: center;  }
